@@ -25,8 +25,8 @@ fi
 unset rc
 
 # environment
-export GOPATH=/home/emre/data/golang
-PATH=$PATH:$GOPATH/go/bin
+export GOPATH=/home/emre/.go
+PATH=$PATH:/home/emre/data/golang/go/bin
 export PATH
 
 # aliases
