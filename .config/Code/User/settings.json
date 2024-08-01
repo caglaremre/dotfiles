@@ -21,7 +21,7 @@
     "explorer.confirmDragAndDrop": false,
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.semanticHighlighting.enabled": false,
     "window.menuBarVisibility": "toggle",
     "editor.folding": true,
@@ -29,9 +29,11 @@
     "editor.tabSize": 2,
     "explorer.compactFolders": false,
     "files.associations": {
-        "*.tmpl": "go-template"
+        "*.tmpl": "go-template",
+        "*.html": "html"
     },
     "workbench.settings.editor": "json",
     "git.confirmSync": false,
-    "workbench.colorTheme": "Catppuccin Mocha"
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "editor.minimap.autohide": true
 }
