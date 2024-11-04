@@ -1,39 +1,31 @@
 {
-    "telemetry.telemetryLevel": "off",
-    "files.autoSave": "afterDelay",
-    "editor.fontFamily": "'VictorMono Nerd Font Mono','Source Code Pro', 'Droid Sans Mono', 'monospace', monospace",
-    "editor.fontSize": 16,
-    //"terminal.integrated.fontFamily": "'VictorMono Nerd Font Mono'",
-    //"terminal.integrated.fontSize": 16,
-    "workbench.iconTheme": "material-icon-theme",
-    // experimental ??
-    // "editor.lineHeight": 1.4,
-    "editor.fontLigatures": true,
-    "editor.cursorStyle": "line-thin",
-    "editor.cursorBlinking": "solid",
-    "editor.snippetSuggestions": "top",
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.glyphMargin": true,
-    //"workbench.editor.enablePreview": false,
-    "explorer.confirmDragAndDrop": false,
-    "files.trimTrailingWhitespace": true,
-    "files.trimFinalNewlines": true,
-    "editor.formatOnSave": false,
-    "editor.semanticHighlighting.enabled": false,
-    "window.menuBarVisibility": "toggle",
-    "editor.folding": true,
-    // "catppuccin.accentColor": "blue",
-    "editor.tabSize": 2,
-    "workbench.editor.showTabs": "multiple",
-    "workbench.editor.tabSizing": "shrink",
-    "explorer.compactFolders": false,
-    "files.associations": {
-        "*.tmpl": "gohtml",
-        "*.html": "html",
-        "*.css": "css"
-    },
-    "workbench.settings.editor": "json",
-    "git.confirmSync": false,
-    "workbench.colorTheme": "Catppuccin Mocha",
-    "editor.minimap.autohide": true
+  // Appearence
+  "terminal.integrated.fontFamily": "'Iosevka Term'",
+  "telemetry.telemetryLevel": "off",
+  "window.menuBarVisibility": "toggle",
+  "editor.minimap.autohide": true,
+  "explorer.compactFolders": false,
+  "workbench.colorTheme": "Futuristt",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.cursorStyle": "line-thin",
+  "editor.fontFamily": "Iosevka, 'Source Code Pro', 'monospace', monospace",
+  "editor.tabSize": 2,
+  "editor.folding": true,
+
+  // Java
+  "java.configuration.detectJdksAtStart": false,
+  "java.jdt.ls.java.home": "/home/emre/data/java/amazon-corretto-17.0.12.7.1-linux-x64",
+
+  // Behaviour
+  "files.trimTrailingWhitespace": true,
+  "editor.snippetSuggestions": "top",
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "newUntitledFile",
+  "files.trimFinalNewlines": true,
+  "files.associations": {
+    "*.html":"html",
+    "*.css":"css"
+  },
+  "git.confirmSync": false,
+  "files.autoSave": "afterDelay",
 }
