@@ -5,10 +5,11 @@
   "window.menuBarVisibility": "toggle",
   "editor.minimap.autohide": true,
   "explorer.compactFolders": false,
-  "workbench.colorTheme": "Futuristt",
+  "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.iconTheme": "material-icon-theme",
   "editor.cursorStyle": "line-thin",
-  "editor.fontFamily": "Iosevka, 'Source Code Pro', 'monospace', monospace",
+  "editor.fontFamily": "Iosevka",
+  "editor.fontSize": 16,
   "editor.tabSize": 2,
   "editor.folding": true,
 
