@@ -29,11 +29,12 @@ export GOPATH=/home/emre/.go
 export FLUTTERBIN=/home/emre/data/flutter/bin/
 export GOBIN=/home/emre/data/golang/go/bin/
 export CMDTOOLSBIN=/home/emre/data/cmdline-tools/bin/
+#export DOCKER_HOST=unix:///run/user/1000/docker.sock # rootless docker
 PATH=$PATH:$GOBIN:$FLUTTERBIN:$CMDTOOLSBIN
 export PATH
 
 # aliases
 alias config='/usr/bin/git --git-dir=/home/emre/.myconf/ --work-tree=/home/emre'
 alias vim=nvim
-alias la='ll -a'
+alias la='ll -d .*'
 alias ..='cd ..'
