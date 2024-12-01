@@ -29,6 +29,7 @@ export GOPATH=/home/emre/.go
 export FLUTTERBIN=/home/emre/data/flutter/bin/
 export GOBIN=/home/emre/data/golang/go/bin/
 export CMDTOOLSBIN=/home/emre/data/cmdline-tools/bin/
+export PS1="[\e[0;33m\u\e[m@\e[0;32m\h\e[m \e[0;34m\W\e[m]$ "
 #export DOCKER_HOST=unix:///run/user/1000/docker.sock # rootless docker
 PATH=$PATH:$GOBIN:$FLUTTERBIN:$CMDTOOLSBIN
 export PATH
