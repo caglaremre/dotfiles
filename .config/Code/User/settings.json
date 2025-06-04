@@ -1,11 +1,11 @@
 {
   // Appearence
-  "terminal.integrated.fontFamily": "'Iosevka Term'",
+  "terminal.integrated.fontFamily": "'Iosevka Term Custom'",
   "telemetry.telemetryLevel": "off",
   "window.menuBarVisibility": "toggle",
   "editor.minimap.autohide": true,
   "explorer.compactFolders": false,
-  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.colorTheme": "Solarized Light",
   "workbench.iconTheme": "material-icon-theme",
   "editor.cursorStyle": "line-thin",
   "editor.fontFamily": "Iosevka",
@@ -13,23 +13,33 @@
   "editor.tabSize": 2,
   "editor.folding": true,
 
-  // Java
-  "java.configuration.detectJdksAtStart": false,
-  "java.jdt.ls.java.home": "/home/emre/data/java/amazon-corretto-17.0.12.7.1-linux-x64",
-
   // Markdown PDF
   "markdown-pdf.displayHeaderFooter": false,
 
+  // indent-rainbow
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.1)",
+    "rgba(127,255,127,0.1)",
+    "rgba(255,127,255,0.1)",
+    "rgba(79,236,236,0.1)"
+  ],
+
   // Behaviour
+  "workbench.editor.openSideBySideDirection": "down",
+  "extensions.ignoreRecommendations": true,
   "files.trimTrailingWhitespace": true,
   "editor.snippetSuggestions": "top",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "newUntitledFile",
   "files.trimFinalNewlines": true,
+  "editor.smoothScrolling": true,
   "files.associations": {
     "*.html":"html",
     "*.css":"css"
   },
   "git.confirmSync": false,
   "files.autoSave": "afterDelay",
+  "git.autofetch": true,
+  "update.mode": "manual",
+  "git.suggestSmartCommit": false,
 }

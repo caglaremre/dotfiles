@@ -88,7 +88,7 @@ completions=(
   kubectl
   ssh
   docker
-  minikube
+  emre
 )
 
 # Which aliases would you like to load? (aliases can be found in ~/.oh-my-bash/aliases/*)
